@@ -120,6 +120,7 @@ button {
     }
 
     .left {
+        display: none;
         order: 1;
         width: 100%;
         height: 50%;
@@ -130,7 +131,7 @@ button {
     }
 
     .form-section{
-        order: 2;
+        order: 1;
         max-width: 90%;
         margin: auto;
     }
