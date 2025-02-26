@@ -487,7 +487,7 @@ p{
 /* mobile responsive  480px*/
 
 @media screen and (max-width: 480px) {
-    
+
     .menu nav, 
     .menu .sign-in {
         display: none;
@@ -497,7 +497,12 @@ p{
         display: block;
     }
 
-    
+    .hero-content {
+        font-size: 15px;
+        h1{
+            font-size: 55px;
+        }
+    }
     .menu {
         justify-content: flex-start;
         padding: 0 20px;
@@ -529,8 +534,7 @@ p{
     .content {
         max-width: 100%;
         text-align: center;
-        /* margin: 0; */
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
    .abt-container{
@@ -731,5 +735,9 @@ h1 {
 .logo-footer{
     margin: auto;
 }
+
+.sign-up {
+    display: none;
+}s
 }
    
