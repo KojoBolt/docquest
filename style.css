@@ -206,6 +206,23 @@ p{
 .left{
     max-width: 45%;
 }
+.left-heading{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.img-sec{
+    width: 500px;
+}
+
+.img-sec > img {
+    border-radius: 18px;
+    border: 8px solid #6C79A1;
+    
+}
 .abt-head{
     text-align: center;
     padding-top: 40px;
@@ -521,6 +538,10 @@ p{
     .hero-main {
         padding: 20px;
         height: auto;
+    }
+
+    .img-sec{
+        width: 100%;
     }
 
     
